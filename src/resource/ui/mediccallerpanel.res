@@ -7,8 +7,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"8" //30
+		"tall"			"8" //30
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../effects/speech_mediccall_hud"
@@ -28,15 +28,15 @@
 		"image"			"../effects/speech_mediccall_fire"
 		"scaleImage"		"1"	
 	}	
-	"CallerHealth"
+	"CallerHealth" //This offsets the white background with red as HP lowers.
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"CallerHealth"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"8"
+		"tall"			"8"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../effects/speech_mediccall_hurt"
