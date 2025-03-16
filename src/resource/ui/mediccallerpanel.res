@@ -60,14 +60,14 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"CallerAuto"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"30"
-		"tall"			"30"
+		"xpos"			"0" //unused? Engine overwrites location data to be over teammates, or in the "wheel".
+		"ypos"			"0" //unused? Engine overwrites location data to be over teammates, or in the "wheel".
+		"zpos"			"0" //unused? Engine overwrites location data to be over teammates, or in the "wheel".
+		"wide"			"8" //30, These are also used for the tracking callouts when client has no line of sight. (including the "wheel")
+		"tall"			"8" //30, These are also used for the tracking callouts when client has no line of sight. (including the "wheel")
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../effects/speech_mediccall_attention"
+		"image"			"../effects/speech_mediccall_attention" //maybe try to use a dot or something simpler here
 		"scaleImage"		"1"	
 	}
 	"CallerReviveEasy"
